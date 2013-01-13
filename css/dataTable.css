@@ -1,0 +1,61 @@
+
+table{
+	width: 80%;
+	border-collapse: collapse;
+	margin: 60px 10% 5px 10%; 
+}
+
+caption{
+	font-size: 16px;
+	padding: 10px;
+	color: #596171;
+	background-color: #DBE3F0;
+	font-weight: bold;
+}
+
+th{
+	font-size: 13px;
+	padding: 10px;
+	color: #DBE3F0;
+	background-color: #596171;
+}
+td{
+	font-size: 11px;;
+	padding: 3px;
+}
+
+img.action{
+	margin: 0 2px 0 2px;
+}
+
+img.action:HOVER{
+	cursor: pointer;
+}
+
+
+.even{
+	background-color: #737C8C;
+	color: #DBE3F0;
+}
+
+.odd{
+	background-color: #8D96A8;
+	color: #DBE3F0;
+}
+
+
+.noData{
+	background-color: #DBE3F0;
+	color: #596171;
+	font-size: 15px;
+}
+
+tr.foot{background-color: #596171;}
+
+tr.foot span{font-size: x-small; float: right;}
+	
+
+.even:HOVER, .odd:HOVER {
+	background-color: #DBE3F0;
+	color: #596171;
+}

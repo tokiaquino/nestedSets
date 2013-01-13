@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Conjuntos Anidados</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/dataTable.css" />
+		<script type="text/javascript" src="js/api.js"></script>
+		<script type="text/javascript" src="js/nestedSets.js"></script>
+	</head>
+	<body onload="javascript:init(event);" onunload="javascript:close();">
+		<div id="showTree"></div>
+		<div id="showNodeInfo">
+			<!--div id="">
+			</div-->
+			<form id="addChildForm" style="visibility: hidden;">
+				<input type="hidden" id="selectedNodeTextValue" >
+				<input type="hidden" id="selectedNodeLftValue" >
+				<input type="hidden" id="selectedNodeRgtValue" >
+				<input type="hidden" id="selectedNodeDepthValue" >
+				<table>
+					<caption id="selectedNodeName"></caption>
+					<tr>
+						<td width="50%" style="text-align: right;"><label for="childName">Texto del Nodo</label></td>
+						<td width="50%"><input id="childName" name="childName"></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align: center;"><button type="button" onclick="javascript:addNode();">Agregar</button></td>
+					</tr>	
+				</table>
+			</form>
+			<div id="childNodes">
+			</div>
+		</div>
+		<div id="botonera">
+			<button onclick="javascript:saveTree();">Guardar</button>
+		</div>
+		<div id="consoleLog">
+		</div>
+	</body>
+</html>
